@@ -1,0 +1,27 @@
+<!Doctype html>
+	<html>
+		<head>
+			<link rel="stylesheet" media="screen" type="text/css" title="Code_CSS" href="formulaire.css"/>
+			<meta="utf-8"/>
+		</head>
+
+		<body>
+			<h1>Inscription</h1>
+			<form>
+				
+				<label>Votre Prenom</label> 
+					<input type="text" name="Prenom" maxlength="15" class="Prenom" placeholder="Exemple: Jean"/>
+				<label>Votre Nom</label>  
+					<input type="text" name="Nom" maxlength="15" placeholder="Exemple: Dupont"/>
+				<label>Age</label> 
+					<input type="number" name="Age" min="14" max="100" placeholder="Ex 25"/>
+				<label>Genre</label>  
+					<select name="Genre">
+						<option value="Homme">Homme</option>
+						<option value="Femme">Femme</option>
+					 	<option value="Autre">Autre</option>
+					</select>
+				<label>Votre E-mail</label>  <input type="email" name="E-mail" maxlength="25" size="25" placeholder="exemple@ex.com"/>
+				<label>Description</label>  <textarea type="text" name="Description" maxlength="1000" placeholder="Decrivez-vous!"></textarea>
+				<input type="submit" value="Envoyer" id="Envoyer"/>
+			</form>

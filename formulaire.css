@@ -1,0 +1,31 @@
+body {
+	background-color: rgba(238,238,238,0.8);
+	color: #2B3F48;
+}
+
+h1 {
+	text-align: center;
+}
+label {
+	display: block;
+	line-height: 30px;
+	margin-left: 100px;
+}
+
+input, textarea, select {
+	border:1px solid #C0C0C0;
+	border-radius: 3px;
+	box-shadow:1px 1px 2px #C0C0C0 inset;
+	margin-left: 100px;
+}
+
+#Envoyer {
+	display: block;
+	margin-left: 20%;
+	margin-top: 50px;
+}
+
+textarea {
+	height: 200px;
+	width: 450px;
+}
