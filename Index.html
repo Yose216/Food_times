@@ -1,69 +1,127 @@
-
 <!Doctype html>
 	<html>
 		<head>
+			<link rel="stylesheet" media="screen" type="text/css" title="Index" href="Bootstrap/css/bootstrap.css"/>
 			<link rel="stylesheet" media="screen" type="text/css" title="Index" href="Index.css"/>
-			<meta charset="utf-8"></meta>
+			<meta charset="utf-8"/>
 			<title>FOOD TIMES</title>
 		</head>
 		<body>
 		
+			<div class="row">
 			<header>
 
-				<h1>Food Times</h1>
-				<div class "menu">
-				<li><a href="#">Homes</a></li>
-				<li><a href="#">Menus</a>
-					<ul class="sousMenu">
-                                        <li><a href="#">Entrées</a></li>
-                                        <li><a href="#">Plats</a></li>
-					<li><a href="#">Desserts</a></li>
-					<li><a href="#">Boissons</a></li>
-                                </ul>
-                        	</li>
-				<li><a href="#">Contact</a>
-                                <ul class="sousContact">
-                                        <li><a href="#">Plan & Adresse</a></li>
-                                        <li><a href="#">Suivez-nous</a></li>
-                                </ul>
-                        	</li>
+				<h1 id="Home" class="page-header"><strong>Food Times</strong></h1>
+				<h2><small>Prenez le temps de manger</small></h2>
+				<div class="Menu" class="col-md-2">
+					<li><a href="#Home">Home</a></li>
+					<li><a href="#Menus">Menus</a></li>
+					<li><a href="#Entrées">Entrées</a></li>
+					<li><a href="#Plats">Plats</a></li>
+					<li><a href="#Desserts">Desserts</a></li>
+					<li><a href="#Boissons">Boissons</a></li>
+					<li><a href="#Contact">Contact</a>
+                                        <li><a href="#Plan">Plan & Adresse</a></li>
+                                        <li><a href="#Suivez-nous">Suivez-nous</a></li>
 				</div>
 			</header>
 
 			<main>
+				
+				<div class="Home" class="col-md-9">
+					<div class="bloc1">
+					<h2> La tradition, notre passion </h2>
 
-				<h3> La tradition, notre passion </h3>
+						<p class="lead">Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est ultimum.
+		 				ire enim ipse compellebatur ad militem, quem exagitabat inopia simul et feritas, 
+		 				et alioqui coalito more in ordinarias dignitates asperum semper et saevum, ut satisfaceret
+		 				atque monstraret, quam ob causam annonae convectio sit impedita.</p>
 
+						<p class="lead">Altera sententia est, quae definit amicitiam paribus officiis ac voluntatibus.
+		 				Hoc quidem est nimis exigue et exiliter ad calculos vocare amicitiam, ut par sit ratio
+		 				acceptorum et datorum. Divitior mihi et affluentior videtur esse vera amicitia nec observare
+		 				restricte, ne plus reddat quam accep</p>
+					</div>
 
-		<p>Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est ultimum.</br>
-		 ire enim ipse compellebatur ad militem, quem exagitabat inopia simul et feritas, </br>
-		 et alioqui coalito more in ordinarias dignitates asperum semper et saevum, ut satisfaceret</br>
-		 atque monstraret, quam ob causam annonae convectio sit impedita.</p>
-
-		<p>Altera sententia est, quae definit amicitiam paribus officiis ac voluntatibus.</br>
-		 Hoc quidem est nimis exigue et exiliter ad calculos vocare amicitiam, ut par sit ratio</br>
-		 acceptorum et datorum. Divitior mihi et affluentior videtur esse vera amicitia nec observare</br>
-		 restricte, ne plus reddat quam accep</p>
-
-
-		<h3> Nous retrouver </h3>	
-			<h3> Horaires <h3>
-			<h3>Carole, Latifa,Juliette, Floryan, Youness.</h3> 
-			<p> du lundi au vendredi </br>
-			midi de : 11h à 14h </br>
-			soir de : 18h à 22h </p>
-			<p> le week-end et les jours feries </br>
-			midi : 11h à 15h </br>
-			soir : 18h30 à 1h </p>
-
-			<h3> Adresse </h3>
-			 <p> Rue du projet a rendre, 35000 Rennes </p>
+					<h2> Nous retrouver </h2>	
+					<div class="Horaires">
+					<h3>Horaires</h3>
+			 			<p>du lundi au vendredi:</p><p> 11h à 14h et 18h à 22h </p>
+						<p class="week">Le week-end et les jours feries:<p/><p>  11h à 15h et 18h30 à 1h </p>
+					</div>
+					<div class="Adresse">
+					<h3>Adresse</h3>
+			 		<p>Rue du projet a rendre,</p>
+					<p>35000 Rennes</p>
 			
-			<h3> Plan </h3>
+					<h3> Plan </h3>
 
-			<a href =" Google.map " /a>
+					<a href ="Google.map">Maps</a>
+					</div>
+				</div>
+				
+				<div class="Menus" class="col-md-9">
+					<h2 id="Menus">Le menu</h2>
 
+					<div class="Entrees"><h3 id="Entrées">Entrées</h3>
+						<h4 class="text-uppercase">Quod si rectum</h4>
+							<p>Quod si rectum statuerimus vel concedere amicis, quidquid velint, vel impetrare ab 								iis, quidquid velimus, perfecta quidem sapientia si simus, nihil habeat res vitii; sed 								loquimur de iis amicis qui ante oculos sunt, quos vidimus aut de quibus memoriam 								accepimus, quos novit vita communis. Ex hoc numero nobis exempla sumenda sunt, et eorum 							quidem maxime qui ad sapientiam proxime accedunt.</p>
+						
 
-			</main>
+						<h4 class="text-uppercase">Sed si ille</h4>
+							<p>Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non 								properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem, etiamsi ille 								aliud vellet, rei publicae consulere oporteret?</p>
+						
 
-			</html>
+						<h4 class="text-uppercase">tam eximia fortuna</h4>
+							<p>Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non 								properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem, etiamsi ille 								aliud vellet, rei publicae consulere oporteret?</p>
+						<hr/>
+					</div>
+
+					<div class="Plats" class="col-md-9">		
+						<h3 id="Plats">Plats</h3>
+							
+							<h4 class="text-uppercase">rectum statuerimus</h4>
+								<p>Quod si rectum statuerimus vel concedere amicis, quidquid velint, vel impetrare ab 								iis, quidquid velimus, perfecta quidem sapientia si simus, nihil habeat res vitii; sed 								loquimur de iis amicis qui ante oculos sunt, quos vidimus aut de quibus memoriam 								accepimus, quos novit vita communis. Ex hoc numero nobis exempla sumenda sunt, et eorum 							quidem maxime qui ad sapientiam proxime accedunt.</p>
+							
+							
+							<h4 class="text-uppercase">illa conficiat</h4>
+								<p>Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non 								properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem, etiamsi ille 								aliud vellet, rei publicae consulere oporteret?</p>
+							
+							
+							<h4 class="text-uppercase">vita communis</h4>
+								<p>de iis amicis qui ante oculos sunt, quos vidimus aut de quibus memoriam 								accepimus, quos novit vita communis. Ex hoc numero nobis exempla sumenda sunt, et eorum 							quidem maxime qui ad sapientiam proxime accedunt.</p>
+							<hr/>
+					</div>		
+					
+					<div class="Desserts" class="col-md-9">		
+						<h3 id="Desserts">Desserts</h3>
+							
+						<h4 class="text-uppercase">consulere oporteret</h4>
+								<p>Sed si ille hac tam eximia fortuna propter utilitatem rei publicae frui non 								properat, ut omnia illa conficiat, quid ego, senator, facere debeo, quem, etiamsi ille 								aliud vellet, rei publicae consulere oporteret?</p>
+							
+						<h4 class="text-uppercase">Divitior mihi et</h4>
+								<p>nimis exigue et exiliter ad calculos vocare amicitiam, ut par sit ratio
+		 				acceptorum et datorum. Divitior mihi et affluentior videtur esse vera amicitia nec observare
+		 				restricte, ne plus reddat quam accep</p>
+							
+						<h4 class="text-uppercase">GGGJHGKJHKJH</h4>
+								<p>cjdijcoidjciodjciojcoidjciodjciodjciodjcoidjcoidjcidjciodjcoicjoidjcoidcjoijc
+								djoidjcoidjoidjoivjiovjoidjvoiiijjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+								lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll</p>
+					</div>
+					<hr/>
+
+					<div class="Boissons" class="col-md-9">		
+						<h3 id="Boissons">Boissons</h3>
+						<ul>
+							<li>gdghddhuc</li>
+							<li>cnidbcdbch</li>
+							<li>cyugcuydcuyd</li>
+							<li>ijsnijsxjs</li>
+						</ul>
+					</div>
+</div>				</div>
+</body>
+</main>
+</html>
+		
